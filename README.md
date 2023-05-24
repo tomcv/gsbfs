@@ -90,7 +90,7 @@ which will return an array containing the selected features indexes, see `gso_bo
 documentation. Since the process can take several minutes or hours to complete when X is very large,
 the function provides a `verbose` option to report its completion progress.
 
-Other usage examples are provided in [example.py](example.py).
+Other usage examples are provided in [gsbfs_example.ipynb](gsbfs_example.ipynb) notebook.
 
 Please note that the selection process relies on random probes, which means that running the procedure multiple
 times may yield different results. Moreover, when the number of observations is significantly  greater than the
